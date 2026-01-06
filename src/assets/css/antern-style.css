@@ -1,0 +1,13 @@
+.logo-antern{
+    width: 200px;
+    margin-top: -25px;
+}
+.header {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .header.scrolled {
+    background: #ffffff;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  }
+  
