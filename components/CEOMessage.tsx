@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
+import ram from '../src/assets/img/leadership/ramk.png';
 
 interface CEOProps {
   onInitiateStrategy?: () => void;
@@ -44,7 +45,7 @@ export const CEOMessage: React.FC<CEOProps> = ({ onInitiateStrategy }) => {
             style={{ transform: `translate3d(0, ${offsetY * 0.15}px, 0)` }}
           >
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2000&auto=format&fit=crop" 
+              src={ram} 
               alt="Ramakrishna RL" 
               className="w-full h-full object-cover object-top"
             />
