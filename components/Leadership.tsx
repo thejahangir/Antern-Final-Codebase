@@ -1,6 +1,17 @@
 
 import React, { useState, useEffect } from 'react';
 
+import ram from '../src/assets/img/leadership/ramk.png';
+import rajani from '../src/assets/img/leadership/rajnikanth.png';
+import jaya from '../src/assets/img/leadership/jayk.jpg';
+import jagan from '../src/assets/img/leadership/jagan.jpg';
+import amarnath from '../src/assets/img/leadership/amar.png';
+import jahangir from '../src/assets/img/leadership/jahangir.jpg';
+import arvind from '../src/assets/img/leadership/arvind.png';
+import pallavi from '../src/assets/img/leadership/pallavi.png';
+
+
+
 interface Leader {
   name: string;
   role: string;
@@ -20,86 +31,86 @@ const leadershipTeam: Leader[] = [
   {
     name: "Ramakrishna RL",
     role: "Chief Executive Officer & Founder",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop",
-    bio: "Visionary leader with 20+ years of enterprise tech transformation experience.",
-    fullBio: "Ramakrishna is a seasoned executive with over two decades of experience in navigating complex digital landscapes. Before founding Antern, he held senior leadership positions at several Fortune 500 tech firms, where he specialized in large-scale infrastructure modernization and cloud adoption.",
-    expertise: ["Digital Strategy", "Enterprise Scaling", "Cloud Migration", "M&A Advisory"],
+    image: ram,
+    bio: "Visionary leader with 20+ years in IT strategy and large-scale project delivery.",
+    fullBio: "With over two decades of experience in the Information Technology industry, Ram brings extensive expertise to his role at MySkillTest. Prior to this, he managed software project delivery at several multinational companies, steering complex digital transformations for Fortune 500 clients. His focus at MySkillTest is on bridging the gap between technical capability and industrial requirement through automated intelligence.",
+    expertise: ["Digital Strategy", "Enterprise Scaling", "Managment", "M&A Advisory", "Leadership"],
     strategicHighlight: "Pioneering the 'Intuition-First' enterprise framework for Global 500 partners.",
     socials: { linkedin: "#", twitter: "#", email: "ramakrishna@antern.tech" }
   },
   {
-    name: "Sarah Jenkins",
-    role: "Chief Technology Officer",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop",
-    bio: "Cloud-native architecture specialist and AI advocate leading our global R&D.",
-    fullBio: "Sarah leads Antern’s technological evolution. With a background in computer science and behavioral psychology, she champions the integration of cognitive AI into mission-critical systems.",
-    expertise: ["AI/ML Systems", "Cyber Resilience", "Cloud Native", "Neuro-UX Architecture"],
-    strategicHighlight: "Architecting zero-trust cognitive ecosystems for mission-critical reliability.",
-    socials: { linkedin: "#", twitter: "#", email: "sarah@antern.tech" }
+    name: "Rajanikanth Goteti",
+    role: "Co-Founder and COO",
+    image: rajani,
+    bio: "Expert in operational excellence and cross-border marketing strategies.",
+    fullBio: "Rajani brings two decades of expertise in the marketing and outsourcing industries. Throughout his career, he has executed successful campaigns that have helped businesses grow multifold. At MySkillTest, he oversees the global operations, ensuring that our scalable testing infrastructure meets the rigorous demands of enterprise clients while maintaining a seamless experience for candidates worldwide.",
+    expertise: ["Execution Rigor", "Risk Stewardship", "Platform Scalability", "Experience Architecture"],
+    strategicHighlight: "Institutionalizing zero-trust operating models to ensure mission-critical reliability.",
+    socials: { linkedin: "#", twitter: "#", email: "rajani@antern.tech" }
   }
 ];
 
 const advisors: Leader[] = [
   {
-    name: "Dr. Elena Rossi",
-    role: "Strategic Board Advisor",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=800&auto=format&fit=crop",
-    bio: "Former Fortune 100 executive specializing in organizational agility and scaling.",
-    fullBio: "Dr. Rossi brings a wealth of experience in corporate strategy and operational excellence. Her advisory work focuses on helping Antern's partners navigate the cultural shifts required for successful digital transformation.",
-    expertise: ["Operational Agility", "Change Management", "GNP Optimization"],
-    strategicHighlight: "Empowering cultural shifts within traditional enterprise hierarchies.",
-    socials: { linkedin: "#", email: "elena@antern.tech" }
+    name: "Jaya Kumar K",
+    role: "Advisor & Investor",
+    image: jaya,
+    bio: "Former VP at Sabre Global with deep tech-business insight.",
+    fullBio: "A leader with expertise in technology and business. Former Vice President & Managing Director at Sabre's Global. Jaya provides strategic oversight on our scaling roadmap and enterprise-grade security protocols.",
+    expertise: ["Operational Agility", "Change Capitalization", "Value Creation"],
+    strategicHighlight: "Accelerating value creation through disciplined transformation and cultural alignment.",
+    socials: { linkedin: "#", email: "jaya@antern.tech" }
   },
   {
-    name: "Marcus Thorne",
-    role: "Investment & Scale Advisor",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=800&auto=format&fit=crop",
-    bio: "Venture partner with a focus on enterprise SaaS and global market entry.",
-    fullBio: "Marcus is a veteran investor with a track record of scaling high-growth tech companies. He provides strategic guidance on Antern's global expansion.",
-    expertise: ["Venture Capital", "SaaS Growth", "Global Expansion"],
-    strategicHighlight: "Unlocking $1B+ in value through optimized digital market entry.",
+    name: "Jagan Mohan",
+    role: "Advisor & Investor",
+    image: jagan,
+    bio: "Innovation-focused leader and seasoned Country Manager.",
+    fullBio: "Detail-oriented leader with a focus on innovation. Currently serving as Vice President & Country Manager for a leading global tech firm. Jagan's expertise helps us navigate international markets and local compliance.",
+    expertise: ["Operational Agility", "Transformation Governance", "Value Optimization"],
+    strategicHighlight: "Catalyzing enterprise transformation by aligning culture, capital, and execution.",
     socials: { linkedin: "#", twitter: "#" }
   },
   {
-    name: "Hiroshi Tanaka",
-    role: "Innovation Consultant",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop",
-    bio: "Renowned expert in industrial automation and HMI optimization.",
-    fullBio: "Based in Tokyo, Hiroshi consults on Antern's most complex industrial IoT and automation projects.",
-    expertise: ["IoT Engineering", "Industrial UX", "Automation Ethics"],
-    strategicHighlight: "Bridging the physical-digital divide in heavy industrial environments.",
+    name: "Amarnath Thatigutla",
+    role: "Advisor & Investor",
+    image: amarnath,
+    bio: "25 years of global IT experience with marquee clients.",
+    fullBio: "25 years of IT industry experience. Worked with marquee clients across India, UK, and USA. Amarnath advises on the technical depth of our question banks to ensure they remain industry-aligned.",
+    expertise: ["Operating Model Design", "Change Leadership", "Enterprise Value"],
+    strategicHighlight: "Guiding leadership teams through structural and cultural inflection points.",
     socials: { linkedin: "#" }
   }
 ];
 
 const uxStudioTeam: Leader[] = [
   {
-    name: "Liam O'Connor",
-    role: "Head of Experience Systems",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop",
-    bio: "Architect of our 'Intuition Logic' framework, bridging data and human instinct.",
-    fullBio: "Liam oversees the design philosophy across Antern’s service portfolio. He pioneered the 'Intuition Logic' framework.",
-    expertise: ["Behavioral Design", "Systems Thinking", "Service Design"],
-    strategicHighlight: "Redefining the relationship between human instinct and machine logic.",
-    socials: { linkedin: "#", twitter: "#" }
+    name: "Jahangir Alam",
+    role: "Principal UX Architect",
+    image: jahangir,
+    bio: "Principal UX Architect driving enterprise-scale experience architecture.",
+    fullBio: "Jahangir is a Principal UX Architect with 15+ years of experience spanning UX, UI, and Front-End engineering. He operates at the intersection of experience architecture, operating models, and digital platforms—helping organizations institutionalize user-centricity at scale. He has partnered with global enterprises including Prometric, Hyundai, NCR, HPE, Sabre, Costco, and NetApp to modernize experience systems, improve adoption, and enable execution across complex environments.",
+    expertise: ["Cognitive Experience Design", "AI-Driven UX", "Intelligent Design Systems", "Interaction Architecture", "Cross-Platform UX", "Enterprise UX Strategy"],
+    strategicHighlight: "Institutionalizing human-centered experience systems within enterprise operating models.",
+    socials: { linkedin: "#", twitter: "#" , email: "jahangir@antern.tech"}
   },
   {
-    name: "Sophia Chen",
-    role: "Principal Design Strategist",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
-    bio: "Specialist in behavioral economics and conversion architecture.",
-    fullBio: "Sophia leads the discovery and strategy phases for our Tier-1 partners. Her expertise in behavioral economics allows her to design ethical funnels.",
-    expertise: ["Conversion Design", "Market Psych", "Revenue Strategy"],
-    strategicHighlight: "Generating measurable ROI through behavioral science integration.",
+    name: "Arvind Narayanan",
+    role: "Head of Design & Innovation",
+    image: arvind,
+    bio: "Enabling enterprise growth through strategic design and innovation.",
+    fullBio: "Arvind leads design and innovation across enterprise engagements, operating at the intersection of behavioral science, operating models, and value creation. He partners with executive leadership to frame transformation agendas, guide discovery and innovation programs, and institutionalize ethical, insight-driven decision-making across products, platforms, and services.",
+    expertise: ["Innovation Strategy", "Behavioral Science", "Experience Governance", "Design Language Systems"],
+    strategicHighlight: "Embedding behavioral intelligence into enterprise operating models to drive sustained value.",
     socials: { linkedin: "#", twitter: "#", email: "sophia@antern.tech" }
   },
   {
-    name: "David Vance",
-    role: "Creative Director",
-    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=800&auto=format&fit=crop",
+    name: "Pallavi Srinivasan",
+    role: "Principal Visual Designer",
+    image: pallavi,
     bio: "Focused on high-fidelity enterprise aesthetics and tokenized design systems.",
-    fullBio: "David ensures that Antern’s visual language reflects the sophistication of the technology it represents.",
-    expertise: ["Visual Identity", "Design Systems", "Motion Logic"],
+    fullBio: "Pallavi leads Antern’s visual systems, institutionalizing a coherent visual language that reflects the sophistication of the underlying technology.",
+    expertise: ["Visual Direction", "Interface Visualization", "Creative Leadership", "Visual Storytelling"],
     strategicHighlight: "Setting the global standard for enterprise-grade digital aesthetics.",
     socials: { linkedin: "#", twitter: "#" }
   }

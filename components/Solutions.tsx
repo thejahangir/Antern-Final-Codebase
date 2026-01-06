@@ -245,7 +245,7 @@ export const Solutions: React.FC<Props> = ({ onInitiateStrategy, onNavigateTo })
              {[
                { val: "2M+", label: "Assessments Conducted" },
                { val: "40%", label: "Avg. Efficiency Gain" },
-               { val: "99.9%", label: "Uptime SLA" },
+               { val: "98%", label: "Uptime SLA" },
                { val: "Global", label: "Delivery Network" }
              ].map((stat, i) => (
                <div key={i} className="group">

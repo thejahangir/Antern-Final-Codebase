@@ -36,6 +36,9 @@ export default defineConfig(({ mode }) => {
       port: 3000,
       host: '0.0.0.0',
     },
+    build: {
+      chunkSizeWarningLimit: 1600  // In kB, adjust as needed
+    },
 
     resolve: {
       alias: {
