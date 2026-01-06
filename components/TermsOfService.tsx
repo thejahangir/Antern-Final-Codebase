@@ -21,7 +21,7 @@ export const TermsOfService: React.FC = () => {
             <p>Users must interact with our cognitive engines with integrity. Any attempt to exploit or reverse-engineer our intelligence stack is strictly prohibited.</p>
           </section>
           <section>
-             <p className="text-xs text-gray-400 mt-20">Last Updated: March 2024</p>
+             <p className="text-xs text-gray-400 mt-20">Last Updated: March 2025</p>
           </section>
         </div>
       </div>

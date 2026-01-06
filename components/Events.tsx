@@ -37,7 +37,7 @@ export const Events: React.FC = () => {
     {
       dateObj: getRelativeDate(12),
       location: 'San Francisco',
-      title: 'Cognitive Summit 2024',
+      title: 'Cognitive Summit 2025',
       type: 'Flagship Conference'
     },
     {

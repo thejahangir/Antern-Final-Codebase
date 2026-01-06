@@ -4,20 +4,20 @@ import React from 'react';
 const newsHighlights = [
   {
     tag: "Press Release",
-    title: "Antern Technologies Recognized as a Leader in AI-Driven Recruitment Strategy for 2024",
-    date: "March 15, 2024",
+    title: "Antern Technologies Recognized as a Leader in AI-Driven Recruitment Strategy for 2025",
+    date: "March 15, 2025",
     link: "#"
   },
   {
     tag: "Innovation",
     title: "Introducing ScanJD 2.0: The Future of Semantic Job Matching and Talent Acquisition",
-    date: "March 10, 2024",
+    date: "March 10, 2025",
     link: "#"
   },
   {
     tag: "Sustainability",
     title: "Antern Commits to Net-Zero Operations Across All Digital Infrastructure by 2030",
-    date: "March 05, 2024",
+    date: "March 05, 2025",
     link: "#"
   }
 ];

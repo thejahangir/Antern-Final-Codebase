@@ -49,10 +49,10 @@ export const MarketReports: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             {[
-              { date: 'March 2024', title: 'The AI Sovereignty Index', category: 'Cognitive Intelligence' },
-              { date: 'Jan 2024', title: 'Cloud-Smart vs Cloud-First', category: 'Infrastructure' },
-              { date: 'Nov 2023', title: 'UX ROI: Quantifying Intuition', category: 'Experience Design' },
-              { date: 'Sept 2023', title: 'Zero-Trust for the Edge', category: 'Security' }
+              { date: 'March 2025', title: 'The AI Sovereignty Index', category: 'Cognitive Intelligence' },
+              { date: 'Jan 2025', title: 'Cloud-Smart vs Cloud-First', category: 'Infrastructure' },
+              { date: 'Nov 2025', title: 'UX ROI: Quantifying Intuition', category: 'Experience Design' },
+              { date: 'Sept 2025', title: 'Zero-Trust for the Edge', category: 'Security' }
             ].map((report, i) => (
               <div key={i} className="group p-10 border border-gray-100 hover:bg-[#1A1A1A] transition-all duration-500">
                 <span className="text-[10px] font-black uppercase tracking-[0.3em] text-[#4918A9] group-hover:text-white mb-4 block">{report.category}</span>

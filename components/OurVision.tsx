@@ -163,7 +163,7 @@ export const OurVision: React.FC<VisionProps> = ({ onInitiateStrategy }) => {
 
                 {[
                   {
-                    year: "2024 - 2025",
+                    year: "2025 - 2025",
                     title: "The Augmentation Phase",
                     desc: "Embedding specialized AI assistants across mission-critical enterprise workflows to enhance immediate human productivity."
                   },

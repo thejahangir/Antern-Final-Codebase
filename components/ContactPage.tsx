@@ -1,5 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
+import bangalore from '../src/assets/img/bangalore.jpg';
+import hyderabad from '../src/assets/img/hyderbad.jpg';
 
 interface Props { 
   onInitiateStrategy: () => void; 
@@ -35,7 +37,7 @@ export const ContactPage: React.FC<Props> = ({ onInitiateStrategy }) => {
       region: 'India Headquarters',
       address: '#226, 10 M, 100 Ft Road, HRBR Layout, Block 1, Kalyan Nagar, Bangalore - 560 043. India.',
       timezone: 'IST',
-      image: 'https://images.unsplash.com/photo-1610433572201-110753c6cff9?q=80&w=800&auto=format&fit=crop', // Vidhana Soudha
+      image: bangalore, // Vidhana Soudha
       coord: '12.9716° N, 77.5946° E'
     },
     {
@@ -51,7 +53,7 @@ export const ContactPage: React.FC<Props> = ({ onInitiateStrategy }) => {
       region: 'Technology Center',
       address: 'Inorganic Growth & Digital Innovation Hub. HITECH City, Hyderabad.',
       timezone: 'IST',
-      image: 'https://images.unsplash.com/photo-1605142859862-978be7eba909?q=80&w=800&auto=format&fit=crop', // Charminar
+      image: hyderabad, // Charminar
       coord: '17.3850° N, 78.4867° E'
     }
   ];

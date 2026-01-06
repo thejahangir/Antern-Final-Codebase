@@ -25,8 +25,8 @@ export const ProductRoadmap: React.FC<Props> = ({ onInitiateStrategy }) => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             {[
-              { q: 'Q1-Q2 2024', title: 'Cognitive Integration', items: ['IAmInterviewed Video Synthesis', 'SkillTest Adaptive Scoring', 'ScanJD Sentiment Analysis'] },
-              { q: 'Q3-Q4 2024', title: 'Autonomous Scale', items: ['Managed Services AI Overlay', 'Predictive Resource Balancing', 'Global Edge Node Expansion'] },
+              { q: 'Q1-Q2 2025', title: 'Cognitive Integration', items: ['IAmInterviewed Video Synthesis', 'SkillTest Adaptive Scoring', 'ScanJD Sentiment Analysis'] },
+              { q: 'Q3-Q4 2025', title: 'Autonomous Scale', items: ['Managed Services AI Overlay', 'Predictive Resource Balancing', 'Global Edge Node Expansion'] },
               { q: '2025 Vision', title: 'Universal Intelligence', items: ['Neuromorphic Compute Support', 'Quantum Resilient Encryption', 'Full ODC Automation'] }
             ].map((phase, i) => (
               <div key={i} className="p-12 border border-gray-100 hover:border-[#4918A9]/30 transition-all">

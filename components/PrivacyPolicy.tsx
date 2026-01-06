@@ -21,7 +21,7 @@ export const PrivacyPolicy: React.FC = () => {
             <p>Antern Technologies respects user sovereignty. We do not sell data to third parties. All information is handled with zero-trust encryption protocols.</p>
           </section>
           <section>
-             <p className="text-xs text-gray-400 mt-20">Last Updated: March 2024</p>
+             <p className="text-xs text-gray-400 mt-20">Last Updated: March 2025</p>
           </section>
         </div>
       </div>

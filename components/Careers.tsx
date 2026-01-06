@@ -22,7 +22,7 @@ const jobs: Job[] = [
     location: "San Francisco, CA",
     experience: "8-12 Years",
     education: "Master's or PhD in Computer Science",
-    postedDate: "Oct 24, 2023",
+    postedDate: "Oct 24, 2025",
     description: "Engineering the foundational cognitive layers for next-generation enterprise-scale LLM orchestration. You will lead the development of adaptive neural pathways and orchestrate complex deployment architectures.",
     requirements: ["Deep knowledge of Neural Networking", "Proven LLM optimization track record", "Expertise in Rust & PyTorch"],
     perks: ["Competitive Equity", "Global Mobility", "Research Stipend"]
@@ -34,7 +34,7 @@ const jobs: Job[] = [
     location: "Singapore // Remote",
     experience: "10+ Years",
     education: "Bachelor's in Cybersecurity or Information Systems",
-    postedDate: "Oct 20, 2023",
+    postedDate: "Oct 20, 2025",
     description: "Developing zero-trust fluid perimeters to safeguard the world's most sensitive data infrastructures against advanced persistent threats in a rapidly evolving landscape.",
     requirements: ["Expertise in Zero-Trust Architecture", "CISSP/CISM Certified", "Enterprise SecOps background"],
     perks: ["Relocation Package", "Health Concierge", "Annual Retreat"]
@@ -46,7 +46,7 @@ const jobs: Job[] = [
     location: "London, UK",
     experience: "7-10 Years",
     education: "Degree in HCI, Design, or Psychology",
-    postedDate: "Oct 22, 2023",
+    postedDate: "Oct 22, 2025",
     description: "Defining the visual physics of invisible interfaces for high-stakes industrial and clinical environments where precision, accessibility, and speed are paramount.",
     requirements: ["Portfolio of complex systems", "Human-Computer Interaction (HCI) expertise", "Team leadership experience"],
     perks: ["Hardware Upgrades", "Studio Ownership", "Shoreditch Workspace"]
@@ -58,7 +58,7 @@ const jobs: Job[] = [
     location: "New York, NY",
     experience: "8+ Years",
     education: "MBA or equivalent Technical Management degree",
-    postedDate: "Oct 18, 2023",
+    postedDate: "Oct 18, 2025",
     description: "Translating machine intelligence into high-velocity business outcomes for Global 500 clients by defining roadmap excellence and aligning cross-functional teams.",
     requirements: ["Proven B2B SaaS growth", "Technical product background", "C-suite communication skills"],
     perks: ["Performance Bonus", "Family Health", "Travel Credits"]
@@ -70,7 +70,7 @@ const jobs: Job[] = [
     location: "Tokyo, Japan",
     experience: "5-8 Years",
     education: "PhD in Mathematics, Physics, or CS",
-    postedDate: "Oct 25, 2023",
+    postedDate: "Oct 25, 2025",
     description: "Pushing the boundaries of self-correcting neural pathways and adaptive decision frameworks in our specialized Tokyo research hub.",
     requirements: ["PhD with focus on Deep Learning", "Published Research in NeurIPS/ICML", "Open Source contributor"],
     perks: ["GPU Cluster Access", "Publication Bonus", "Tokyo Residence"]
@@ -82,7 +82,7 @@ const jobs: Job[] = [
     location: "Austin, TX // Remote",
     experience: "5-7 Years",
     education: "Bachelor's in Cloud Computing or CS",
-    postedDate: "Oct 26, 2023",
+    postedDate: "Oct 26, 2025",
     description: "Optimizing multi-cloud mesh architectures to ensure seamless data flow and cost-efficiency for our high-availability enterprise services.",
     requirements: ["AWS/Azure/GCP Mastery", "Terraform & Kubernetes expert", "FinOps optimization experience"],
     perks: ["Remote Work Choice", "Home Office Stipend", "Stock Options"]
@@ -94,7 +94,7 @@ const jobs: Job[] = [
     location: "Berlin, Germany",
     experience: "7+ Years",
     education: "Master's in Data Ethics or Cybersecurity",
-    postedDate: "Oct 27, 2023",
+    postedDate: "Oct 27, 2025",
     description: "Architecting decentralized data storage solutions that empower users with absolute control over their digital sovereignty and privacy compliance.",
     requirements: ["GDPR/Global privacy law expertise", "Blockchain & Decentralized Tech", "Security Policy implementation"],
     perks: ["Public Transport Pass", "EU Travel Credit", "Wellness Allowance"]
@@ -106,7 +106,7 @@ const jobs: Job[] = [
     location: "Toronto, Canada",
     experience: "4-6 Years",
     education: "PhD in Quantum Physics or Mathematics",
-    postedDate: "Oct 28, 2023",
+    postedDate: "Oct 28, 2025",
     description: "Developing post-quantum cryptographic standards and exploring early-stage algorithmic advantages for enterprise optimization problems.",
     requirements: ["Qiskit/Cirq proficiency", "Deep understanding of Complexity Theory", "Strong math background"],
     perks: ["Lab Equipment Credit", "Publication Support", "Relocation Support"]
@@ -118,7 +118,7 @@ const jobs: Job[] = [
     location: "Chicago, IL",
     experience: "10-15 Years",
     education: "Bachelor's in CS or Software Engineering",
-    postedDate: "Oct 29, 2023",
+    postedDate: "Oct 29, 2025",
     description: "Translating complex client requirements into scalable architectural blueprints that utilize the full Antern Technologies suite.",
     requirements: ["Enterprise SaaS experience", "Strong Stakeholder Management", "Full-stack architectural depth"],
     perks: ["Premium Healthcare", "Quarterly Bonuses", "Executive Coaching"]
@@ -130,7 +130,7 @@ const jobs: Job[] = [
     location: "London, UK // Remote",
     experience: "8+ Years",
     education: "Degree in Graphic Design or CS",
-    postedDate: "Oct 30, 2023",
+    postedDate: "Oct 30, 2025",
     description: "Unified visual language across all Antern platforms, ensuring tokens-to-code consistency and rapid UI scalability.",
     requirements: ["Mastery of Figma & Design Tokens", "React/Component Library knowledge", "Leadership experience"],
     perks: ["Latest Tech Package", "Studio Membership", "Global Workshops"]
