@@ -38,7 +38,6 @@ export const ContactPage: React.FC<Props> = ({ onInitiateStrategy }) => {
       address: '#226, 10 M, 100 Ft Road, HRBR Layout, Block 1, Kalyan Nagar, Bangalore - 560 043. India.',
       timezone: 'IST',
       image: bangalore, // Vidhana Soudha
-      coord: '12.9716° N, 77.5946° E'
     },
     {
       city: 'United States',
@@ -46,7 +45,6 @@ export const ContactPage: React.FC<Props> = ({ onInitiateStrategy }) => {
       address: 'Strategic Operations & Client Relations Division. One World Trade Center, New York.',
       timezone: 'EST',
       image: 'https://images.unsplash.com/photo-1485738422979-f5c462d49f74?q=80&w=800&auto=format&fit=crop',
-      coord: '40.7128° N, 74.0060° W'
     },
     {
       city: 'Hyderabad',
@@ -54,7 +52,6 @@ export const ContactPage: React.FC<Props> = ({ onInitiateStrategy }) => {
       address: 'Inorganic Growth & Digital Innovation Hub. HITECH City, Hyderabad.',
       timezone: 'IST',
       image: hyderabad, // Charminar
-      coord: '17.3850° N, 78.4867° E'
     }
   ];
 
@@ -131,14 +128,19 @@ export const ContactPage: React.FC<Props> = ({ onInitiateStrategy }) => {
             {offices.map((office, idx) => (
               <div key={idx} className="group relative bg-white overflow-hidden min-h-[650px] flex flex-col justify-between p-12 hover:bg-[#1A1A1A] transition-all duration-700">
                 <div className="relative z-20">
-                  <div className="flex justify-between items-start mb-4">
-                    <span className="text-[10px] font-black uppercase tracking-[0.5em] text-[#4918A9] group-hover:text-[#D9D1DB] transition-colors">
-                      {office.timezone} // {times[office.city] || '--:--'}
-                    </span>
-                    <span className="text-[9px] font-mono text-gray-300 group-hover:text-white/20 transition-colors uppercase">
-                      {office.coord}
-                    </span>
+                  <div className="flex items-center justify-between mb-8 pb-6 border-b border-gray-100 group-hover:border-white/10 transition-colors">
+                    <div className="flex flex-col">
+                        <span className="text-[10px] font-black uppercase tracking-[0.4em] text-gray-400 group-hover:text-white/50 transition-colors mb-1">Timezone</span>
+                        <span className="text-xl font-black text-[#4918A9] group-hover:text-[#D9D1DB] transition-colors">{office.timezone}</span>
+                    </div>
+                    <div className="flex items-center gap-3 bg-gray-50 group-hover:bg-white/10 px-4 py-2 rounded-full transition-colors">
+                        <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
+                        <span className="text-lg font-mono font-bold text-[#1A1A1A] group-hover:text-white transition-colors">
+                            {times[office.city] || '--:--'}
+                        </span>
+                    </div>
                   </div>
+                  
                   <h3 className="text-4xl font-black uppercase tracking-tighter text-[#1A1A1A] group-hover:text-white transition-colors mb-6">
                     {office.city}
                   </h3>
