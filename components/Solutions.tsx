@@ -93,7 +93,7 @@ export const Solutions: React.FC<Props> = ({ onInitiateStrategy, onNavigateTo })
           style={{ transform: `translate3d(0, ${offsetY * 0.15}px, 0)` }}
         >
           <img 
-            src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000" 
+            src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2400&auto=format&fit=crop" 
             className="w-full h-full object-cover" 
             alt="Antern Solutions Ecosystem"
           />

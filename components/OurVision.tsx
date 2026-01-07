@@ -27,7 +27,7 @@ export const OurVision: React.FC<VisionProps> = ({ onInitiateStrategy }) => {
           }}
         >
           <img 
-            src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000&auto=format&fit=crop" 
+            src="https://images.unsplash.com/photo-1666816584311-ba40d5299760?q=80&w=2400&auto=format&fit=crop" 
             alt="Futuristic Network Vision" 
             className="w-full h-full object-cover grayscale"
           />

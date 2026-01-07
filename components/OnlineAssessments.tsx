@@ -21,7 +21,7 @@ export const OnlineAssessments: React.FC<Props> = ({ onInitiateStrategy }) => {
           style={{ transform: `translate3d(0, ${offsetY * 0.15}px, 0)` }}
         >
           <img 
-            src="https://images.unsplash.com/photo-1551288049-bbda4833878d?q=80&w=2000" 
+            src="https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?q=80&w=2400&auto=format&fit=crop" 
             className="w-full h-full object-cover" 
             alt="Data Analytics"
           />

@@ -124,7 +124,7 @@ export const UXProcessDetail: React.FC<UXProcessDetailProps> = ({ onStartDiscove
       <section className="relative h-[85vh] min-h-[700px] flex items-center bg-[#0A0A0A] overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=2500&auto=format&fit=crop" 
+            src="https://images.unsplash.com/photo-1587440871875-191322ee64b0?q=80&w=2400&auto=format&fit=crop" 
             alt="UX Research and Analysis" 
             className="w-full h-full object-cover opacity-50 grayscale hover:grayscale-0 transition-all duration-[3000ms] ease-out"
           />

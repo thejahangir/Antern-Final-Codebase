@@ -21,7 +21,7 @@ export const TechnicalInterviews: React.FC<Props> = ({ onInitiateStrategy }) => 
           style={{ transform: `translate3d(0, ${offsetY * 0.15}px, 0)` }}
         >
           <img 
-            src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=2000" 
+            src="https://images.unsplash.com/photo-1714976694781-216bfc30214e?q=80&w=2400&auto=format&fit=crop" 
             className="w-full h-full object-cover" 
             alt="Technical Interview Code"
           />

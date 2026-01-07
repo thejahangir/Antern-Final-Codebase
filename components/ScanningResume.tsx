@@ -21,7 +21,7 @@ export const ScanningResume: React.FC<Props> = ({ onInitiateStrategy }) => {
           style={{ transform: `translate3d(0, ${offsetY * 0.15}px, 0)` }}
         >
           <img 
-            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2000" 
+            src="https://images.unsplash.com/photo-1698047681432-006d2449c631?q=80&w=2400&auto=format&fit=crop" 
             className="w-full h-full object-cover" 
             alt="Semantic Analysis"
           />

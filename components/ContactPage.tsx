@@ -67,7 +67,7 @@ export const ContactPage: React.FC<Props> = ({ onInitiateStrategy }) => {
           style={{ transform: `translate3d(0, ${offsetY * 0.2}px, 0)` }}
         >
           <img 
-            src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2500" 
+            src="https://plus.unsplash.com/premium_photo-1661484700417-84df9a52c9e7?q=80&w=2400&auto=format&fit=crop" 
             className="w-full h-full object-cover" 
             alt="Antern Global Office"
           />
